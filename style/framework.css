@@ -1,0 +1,269 @@
+/* ====================================== Display */
+.d-block {
+  display: block;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.d-flex {
+  display: flex;
+}
+
+.align-i-c {
+  align-items: center;
+}
+.align-i-s {
+  align-items: flex-start;
+}
+.align-i-e {
+  align-items: flex-end;
+}
+.justify-c-c {
+  justify-content: center;
+}
+.justify-c-between {
+  justify-content: space-between;
+}
+.justify-c-s {
+  justify-content: flex-start;
+}
+.justify-c-e {
+  justify-content: flex-end;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ====================================== Gap */
+.gap-10 {
+  gap: 10px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.gap-30 {
+  gap: 30px;
+}
+.gap-40 {
+  gap: 40px;
+}
+
+/* ====================================== Width */
+.w-100 {
+  width: 100%;
+}
+
+/* ====================================== Colors */
+.c-white {
+  color: var(--light);
+}
+.c-dark {
+  color: var(--dark);
+}
+.c-gray {
+  color: var(--gray);
+}
+.c-grey {
+  color: var(--grey);
+}
+
+/* ====================================== Backgrounds */
+.bg-white {
+  background-color: var(--light);
+}
+.bg-dark {
+  background-color: var(--dark);
+}
+.bg-gray {
+  background-color: var(--gray);
+}
+.bg-grey {
+  background-color: var(--grey);
+}
+
+/* ====================================== Margin */
+.mt-100 {
+  margin-top: 100px;
+}
+.mb-100 {
+  margin-bottom: 100px;
+}
+.my-100 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* ====================================== Padding */
+.pt-100 {
+  padding-top: 100px;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* ====================================== Border */
+.brdr-1 {
+  border-width: 1px;
+}
+.brdr-2 {
+  border-width: 2px;
+}
+.brdr-3 {
+  border-width: 3px;
+}
+.brdr-4 {
+  border-width: 4px;
+}
+.brdr-5 {
+  border-width: 5px;
+}
+.brdr-sloid {
+  border-style: solid;
+}
+.brdr-light {
+  border-color: var(--light);
+}
+.brdr-dark {
+  border-color: var(--dark);
+}
+.brdr-none {
+  border: none;
+}
+
+/* ====================================== Border-radius */
+.rad-1 {
+  border-radius: 1px;
+}
+.rad-2 {
+  border-radius: 2px;
+}
+.rad-3 {
+  border-radius: 3px;
+}
+.rad-4 {
+  border-radius: 4px;
+}
+.rad-5 {
+  border-radius: 5px;
+}
+.rad-6 {
+  border-radius: 6px;
+}
+.rad-7 {
+  border-radius: 7px;
+}
+.rad-8 {
+  border-radius: 8px;
+}
+.rad-9 {
+  border-radius: 9px;
+}
+.rad-10 {
+  border-radius: 10px;
+}
+.rad-half {
+  border-radius: 50%;
+}
+
+/* ====================================== Font */
+.fs-15 {
+  font-size: 15px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+
+.fw-b {
+  font-weight: bold;
+}
+.fw-n {
+  font-weight: normal;
+}
+
+.lato-reg {
+  font-family: "Lato-Regular";
+}
+
+.cardo {
+  font-family: "Cardo-Bold";
+}
+
+/* ====================================== text */
+.txt-c {
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* ====================================== Transition */
+.smooth {
+  transition: var(--transition);
+}
+
+/* ====================================== Cursor */
+.cursor-p {
+  cursor: pointer;
+}
+
+/* ====================================== Position */
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+
+/* ====================================== Overflow */
+.over-h {
+  overflow: hidden;
+}
+
+/* ====================================== z-index */
+.z-ind-back {
+  z-index: -1;
+}
+.z-ind-1 {
+  z-index: 1;
+}
+
+/* ====================================== Media Screen */
+@media (max-width: 992px) {
+  .mob-flex-col {
+    flex-direction: column;
+  }
+}
+@media (max-width: 992px) {
+  .mob-align-c {
+    align-items: center;
+  }
+}
+@media (max-width: 992px) {
+  .mob-txt-c {
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .mob-display-n {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .mob-fs-13 {
+    font-size: 13px;
+  }
+}
